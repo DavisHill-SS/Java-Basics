@@ -12,7 +12,7 @@ public class Part1Assignment2 {
 		int count = 0;
 		
 		while(count < 5) {
-			System.out.print("Enter a number: ");
+			System.out.print("Enter a number between 1 and 100: ");
 			guess = userInput.nextInt();
 			if(Math.abs(guess - random) <= 10) {
 				System.out.println("You have guessed close enough, the number was " + random);
